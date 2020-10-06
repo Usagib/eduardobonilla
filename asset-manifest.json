@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/eduardobonilla/static/css/main.07ad5e37.chunk.css",
+    "main.js": "/eduardobonilla/static/js/main.42f81067.chunk.js",
+    "main.js.map": "/eduardobonilla/static/js/main.42f81067.chunk.js.map",
+    "runtime-main.js": "/eduardobonilla/static/js/runtime-main.6c9e2a18.js",
+    "runtime-main.js.map": "/eduardobonilla/static/js/runtime-main.6c9e2a18.js.map",
+    "static/js/2.9fbe1b5d.chunk.js": "/eduardobonilla/static/js/2.9fbe1b5d.chunk.js",
+    "static/js/2.9fbe1b5d.chunk.js.map": "/eduardobonilla/static/js/2.9fbe1b5d.chunk.js.map",
+    "index.html": "/eduardobonilla/index.html",
+    "precache-manifest.d60f391352f71b4dcca3f84dbd8a9778.js": "/eduardobonilla/precache-manifest.d60f391352f71b4dcca3f84dbd8a9778.js",
+    "service-worker.js": "/eduardobonilla/service-worker.js",
+    "static/css/main.07ad5e37.chunk.css.map": "/eduardobonilla/static/css/main.07ad5e37.chunk.css.map",
+    "static/js/2.9fbe1b5d.chunk.js.LICENSE.txt": "/eduardobonilla/static/js/2.9fbe1b5d.chunk.js.LICENSE.txt",
+    "static/media/index.scss": "/eduardobonilla/static/media/EvolveSansMediumEVO.61a0ace3.otf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6c9e2a18.js",
+    "static/js/2.9fbe1b5d.chunk.js",
+    "static/css/main.07ad5e37.chunk.css",
+    "static/js/main.42f81067.chunk.js"
+  ]
+}
