@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f5b3fb9ad97b9630e7bfd402d4c3ef94",
+    "revision": "c0cb33e6b28715045d4e8ac8312051e5",
     "url": "/eduardobonilla/index.html"
   },
   {
-    "revision": "328d3fd1f2ce4792919e",
-    "url": "/eduardobonilla/static/css/main.07ad5e37.chunk.css"
+    "revision": "832b64f4fdd9e52badba",
+    "url": "/eduardobonilla/static/css/main.b5e45dd3.chunk.css"
   },
   {
-    "revision": "b8aa4bee18027e4bbefd",
-    "url": "/eduardobonilla/static/js/2.9fbe1b5d.chunk.js"
+    "revision": "344ac1a384fb8aeb6f95",
+    "url": "/eduardobonilla/static/js/2.192dc8e4.chunk.js"
   },
   {
     "revision": "f309080c7084103ee1d148adf8ef7d82",
-    "url": "/eduardobonilla/static/js/2.9fbe1b5d.chunk.js.LICENSE.txt"
+    "url": "/eduardobonilla/static/js/2.192dc8e4.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "328d3fd1f2ce4792919e",
-    "url": "/eduardobonilla/static/js/main.42f81067.chunk.js"
+    "revision": "832b64f4fdd9e52badba",
+    "url": "/eduardobonilla/static/js/main.3232d78e.chunk.js"
   },
   {
     "revision": "01cdafc8a45aaf401d21",
