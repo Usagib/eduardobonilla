@@ -1,7 +1,5 @@
 import React from 'react';
-import PropTypes from 'prop-types';
-import { connect } from 'react-redux';
-import { faArrowAltCircleLeft, faBars } from '@fortawesome/free-solid-svg-icons';
+import { faBars } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { Link } from 'react-router-dom';
 
@@ -52,19 +50,19 @@ class Navigation extends React.Component {
           }}
         >
         <Link to='/'>
-          <img className="img-fluid fadein" src="logo.png" />
+          <img alt="logo" className="img-fluid fadein" src="/eduardobonilla/logo.png" />
         </Link>
           <br />
-          <a href="https://github.com/usagib" target="_blank">
-            <img className="img-fluid fadein fadein-first mt-3" src="logogit.png" />
+          <a href="https://github.com/usagib" target="_blank" rel="noopener noreferrer">
+            <img alt="mygithub" className="img-fluid fadein fadein-first mt-3" src="/eduardobonilla/logogit.png" />
           </a>
           <br />
-          <a href="https://www.linkedin.com/in/usagib/" target="_blank">
-            <img className="img-fluid fadein mt-3 fadein-second" src="logolin.png" />
+          <a href="https://www.linkedin.com/in/usagib/" target="_blank" rel="noopener noreferrer">
+            <img alt="mylinkedin" className="img-fluid fadein mt-3 fadein-second" src="/eduardobonilla/logolin.png" />
           </a>
           <br />
-          <a href="https://twitter.com/UsagiBonilla" target="_blank">
-            <img className="img-fluid fadein mt-3 fadein-third" src="logotwi.png" />
+          <a href="https://twitter.com/UsagiBonilla" target="_blank" rel="noopener noreferrer">
+            <img alt="mytwitter" className="img-fluid fadein mt-3 fadein-third" src="/eduardobonilla/logotwi.png" />
           </a>
         </div>
         <div className={`vertical-nav toggleSidebar ${toggleSidebar}`} id="sidebar">
@@ -77,24 +75,24 @@ class Navigation extends React.Component {
           </div>
           <ul className="nav flex-column mb-0 mt-5 ml-5">
             <li className="nav-item">
-              <a href="/" className="nav-link text-white">
+              <Link to="/" className="nav-link text-white">
                 HOME
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a href="/me" className="nav-link">
+              <Link to="/me" className="nav-link">
                 ME
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a href="/projects" className="nav-link">
+              <Link to="/projects" className="nav-link">
                 PORTFOLIO
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a href="/skills" className="nav-link">
+              <Link to="/skills" className="nav-link">
                 SKILLS
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
