@@ -9,7 +9,7 @@ const Projects = () => (
           <Carousel.Item>
             <div className="row align-items-center no-gutters">
               <div className="col-xl-8 col-lg-7">
-                <img className="img-fluid mb-3 mb-lg-0" src="eduardobonilla/giro.png" alt="" />
+                <img className="img-fluid mb-3 mb-lg-0" src="/giro.png" alt="" />
               </div>
               <div className="col-xl-4 col-lg-5">
                 <div className="featured-text text-center text-lg-left">
@@ -36,7 +36,7 @@ const Projects = () => (
           <Carousel.Item>
             <div className="row align-items-center no-gutters">
               <div className="col-xl-8 col-lg-7">
-                <img className="img-fluid mb-3 mb-lg-0" src="eduardobonilla/booking.png" alt="" />
+                <img className="img-fluid mb-3 mb-lg-0" src="/booking.png" alt="" />
               </div>
               <div className="col-xl-4 col-lg-5">
                 <div className="featured-text text-center text-lg-left">
@@ -65,7 +65,7 @@ const Projects = () => (
           <Carousel.Item>
             <div className="row align-items-center no-gutters">
               <div className="col-xl-8 col-lg-7">
-                <img className="img-fluid mb-3 mb-lg-0" src="eduardobonilla/gthr.png" alt="" />
+                <img className="img-fluid mb-3 mb-lg-0" src="/gthr.png" alt="" />
               </div>
               <div className="col-xl-4 col-lg-5">
                 <div className="featured-text text-center text-lg-left">
@@ -91,7 +91,7 @@ const Projects = () => (
           </Carousel.Item>
         </Carousel>
         <div className="row justify-content-center no-gutters mt-5 mb-5 mb-lg-0 fadein">
-          <div className="col-lg-3 fadein fadein-first"><img className="img-fluid" src="eduardobonilla/proj1.png" alt="" /></div>
+          <div className="col-lg-3 fadein fadein-first"><img className="img-fluid" src="/proj1.png" alt="" /></div>
           <div className="col-lg-3 fadein fadein-second">
             <div className="text-center text-lg-left">
               <h2 className="sm-project-title">Stylo Framework</h2>
@@ -109,7 +109,7 @@ const Projects = () => (
               </div>
             </div>
           </div>
-          <div className="col-lg-3 fadein fadein-second"><img className="img-fluid" src="eduardobonilla/proj2.png" alt="" /></div>
+          <div className="col-lg-3 fadein fadein-second"><img className="img-fluid" src="/proj2.png" alt="" /></div>
           <div className="col-lg-3 fadein fadein-first ">
             <div className="text-center text-lg-left">
               <h2 className="sm-project-title">Trnado App</h2>
@@ -149,7 +149,7 @@ const Projects = () => (
               </div>
             </div>
           </div>
-          <div className="col-lg-3 fadein fadein-second"><img className="img-fluid" src="eduardobonilla/proj3.png" alt="" /></div>
+          <div className="col-lg-3 fadein fadein-second"><img className="img-fluid" src="/proj3.png" alt="" /></div>
           <div className="col-lg-3 fadein fadein-second">
             <div className="text-center text-lg-right">
               <h2 className="sm-project-title">Social Scramble</h2>
@@ -167,7 +167,7 @@ const Projects = () => (
               </div>
             </div>
           </div>
-          <div className="col-lg-3 fadein fadein-first "><img className="img-fluid" src="eduardobonilla/proj4.png" alt="" /></div>
+          <div className="col-lg-3 fadein fadein-first "><img className="img-fluid" src="/proj4.png" alt="" /></div>
         </div>
         <div className="row justify-content-center mt-5">
           <a href="https://github.com/usagib" target="_blank" rel="noopener noreferrer">

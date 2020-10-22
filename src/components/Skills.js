@@ -4,14 +4,14 @@ import { Link } from 'react-router-dom';
 
 const Skills = () => (
   <header className="masthead" id="home">
-    <div className="container mt-5">
+    <div className="container mt-5 pt-5">
       <span className="project-title">My Skills</span>
     </div>
     <div className="container-fluid d-flex align-items-center mt-3">
         <Carousel fade="true">
           <Carousel.Item>
               <div className="row" style={{
-                background: 'url(\'eduardobonilla/reactmain.png\')',
+                background: 'url(\'/reactmain.png\')',
                 backgroundRepeat: 'no-repeat',
                 backgroundSize: 'cover',
                 backgroundPosition: 'center',
@@ -19,7 +19,7 @@ const Skills = () => (
                 width: '100vw',
               }}>
                 <div className="col-lg-6">
-                  <img className="img-fluid fadein" src="eduardobonilla/service2.png" alt="" />
+                  <img className="img-fluid fadein" src="/service2.png" alt="" />
                 </div>
                 <div className="col-lg-6 text-left skills-text">
                   <span className="skill-title mt-5">
@@ -34,7 +34,7 @@ const Skills = () => (
           </Carousel.Item>
           <Carousel.Item>
               <div className="row" style={{
-                background: 'url(\'eduardobonilla/railsmain.png\')',
+                background: 'url(\'/railsmain.png\')',
                 backgroundRepeat: 'no-repeat',
                 backgroundSize: 'cover',
                 backgroundPosition: 'center',
@@ -42,7 +42,7 @@ const Skills = () => (
                 width: '100vw',
               }}>
                 <div className="col-lg-6">
-                  <img className="img-fluid fadein" src="eduardobonilla/service3.png" alt="" />
+                  <img className="img-fluid fadein" src="/service3.png" alt="" />
                 </div>
                 <div className="col-lg-6 text-left skills-text">
                   <span className="skill-title mt-5">
@@ -57,7 +57,7 @@ const Skills = () => (
           </Carousel.Item>
           <Carousel.Item>
               <div className="row" style={{
-                background: 'url(\'eduardobonilla/designmain.png\')',
+                background: 'url(\'/designmain.png\')',
                 backgroundRepeat: 'no-repeat',
                 backgroundSize: 'cover',
                 backgroundPosition: 'center',
@@ -65,7 +65,7 @@ const Skills = () => (
                 width: '100vw',
               }}>
                 <div className="col-lg-6">
-                  <img className="img-fluid fadein" src="eduardobonilla/service4.png" alt="" />
+                  <img className="img-fluid fadein" src="/service4.png" alt="" />
                 </div>
                 <div className="col-lg-6 skills-text pr-5 text-left">
                   <span className="skill-title mt-5">

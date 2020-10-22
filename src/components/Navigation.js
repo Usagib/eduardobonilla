@@ -1,5 +1,5 @@
 import React from 'react';
-import { faBars } from '@fortawesome/free-solid-svg-icons';
+import { faBars, faHome } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { Link } from 'react-router-dom';
 
@@ -33,11 +33,11 @@ class Navigation extends React.Component {
             position: 'fixed',
             zIndex: '9999',
             top: '5%',
-            left: '5%',
+            left: '2%',
             backgroundColor: '#ffffff00',
           }}
         >
-          <FontAwesomeIcon icon={faBars} size="2x" className="fadein menu-bars" />
+          <img alt="logo" className="img-fluid fadein" src="/logo.png" />
         </button>
         <div
           className="mt-3 text-right"
@@ -49,23 +49,18 @@ class Navigation extends React.Component {
             backgroundColor: '#ffffff00',
           }}
         >
-        <Link to='/'>
-          <img alt="logo" className="img-fluid fadein" src="/logo.png" />
-        </Link>
-          <br />
-          <a href="https://github.com/usagib" target="_blank" rel="noopener noreferrer">
+
+          <a className="mx-2" href="https://github.com/usagib" target="_blank" rel="noopener noreferrer">
             <img alt="mygithub" className="img-fluid fadein fadein-first mt-3" src="logogit.png" />
           </a>
-          <br />
-          <a href="https://www.linkedin.com/in/usagib/" target="_blank" rel="noopener noreferrer">
+          <a className="mx-2" href="https://www.linkedin.com/in/usagib/" target="_blank" rel="noopener noreferrer">
             <img alt="mylinkedin" className="img-fluid fadein mt-3 fadein-second" src="logolin.png" />
           </a>
-          <br />
-          <a href="https://twitter.com/UsagiBonilla" target="_blank" rel="noopener noreferrer">
+          <a className="mx-2" href="https://twitter.com/UsagiBonilla" target="_blank" rel="noopener noreferrer">
             <img alt="mytwitter" className="img-fluid fadein mt-3 fadein-third" src="logotwi.png" />
           </a>
         </div>
-        <div className={`vertical-nav toggleSidebar ${toggleSidebar}`} id="sidebar">
+        <div className={`vertical-nav toggleSidebar ${toggleSidebar} navbg`} id="sidebar">
           <div className="pt-4 px-3 ml-5 mt-1">
             <div className="media d-flex align-items-center">
 
@@ -76,7 +71,7 @@ class Navigation extends React.Component {
           <ul className="nav flex-column mb-0 mt-5 ml-5">
             <li className="nav-item">
               <Link to="/" className="nav-link text-white">
-                HOME
+                <FontAwesomeIcon icon={faHome} />HOME
               </Link>
             </li>
             <li className="nav-item">

@@ -18,20 +18,22 @@ const App = props => {
     <Router>
       <div className="App">
         <Navigation cookies={cookies} />
-        <Switch>
-          <Route path="/me">
-            <Me />
-          </Route>
-          <Route path="/projects">
-            <Projects />
-          </Route>
-          <Route path="/skills">
-            <Skills />
-          </Route>
-          <Route path="/">
-            <Home />
-          </Route>
-        </Switch>
+        <div className="page-content">
+          <Switch>
+            <Route path="/me">
+              <Me />
+            </Route>
+            <Route path="/projects">
+              <Projects />
+            </Route>
+            <Route path="/skills">
+              <Skills />
+            </Route>
+            <Route path="/">
+              <Home />
+            </Route>
+          </Switch>
+        </div>
       </div>
     </Router>
   );
