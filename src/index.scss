@@ -16,6 +16,11 @@ body {
   overflow-x: hidden;
 }
 
+.embed-section {
+  position: relative !important;
+  width: 100%;
+}
+
 .navbg {
 	background: linear-gradient(-90deg, #000000, #31154b);
 	background-size: 250% 250%;
@@ -284,8 +289,8 @@ a:hover {
 }
 
 .vertical-nav {
-  min-width: 17rem;
-  width: 17rem;
+  min-width: 10rem;
+  width: 10rem;
   height: 100vh;
   position: fixed;
   top: 0;
@@ -296,13 +301,13 @@ a:hover {
 }
 
 .page-content {
-  width: calc(100% - 17rem);
-  margin-left: 17rem;
+  width: calc(100% - 10rem);
+  margin-left: 10rem;
   transition: all 0.4s;
 }
 
 #sidebar.active {
-  margin-left: -17rem;
+  margin-left: -10rem;
 }
 
 #content.active {

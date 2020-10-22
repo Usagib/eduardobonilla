@@ -10,7 +10,8 @@ import Navigation from './Navigation';
 import Home from './Home';
 import Me from './Me';
 import Projects from './Projects';
-import Skills from './Skills'
+import Skills from './Skills';
+import Tweets from './Tweets';
 
 const App = props => {
   const { cookies } = props;
@@ -20,6 +21,9 @@ const App = props => {
         <Navigation cookies={cookies} />
         <div className="page-content">
           <Switch>
+            <Route path="/tweets">
+              <Tweets />
+            </Route>
             <Route path="/me">
               <Me />
             </Route>
