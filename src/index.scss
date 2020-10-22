@@ -109,14 +109,15 @@ body {
 
 .nav-link {
   font-family: 'EvolveSansMediumEVO', sans-serif;
-  transition: 1s;
+  transition: 0.5s;
   font-size: 2rem;
   color: white;
 }
 
 .nav-link:hover {
   font-family: 'EvolveSansMedium', sans-serif;
-  color: #facf23 !important;
+  color: #31154b !important;
+  background-color: white;
 }
 
 .home-text {
