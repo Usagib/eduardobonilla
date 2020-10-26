@@ -23,13 +23,16 @@ const Me = () => (
               Proud Mexican since 1992.
             </p>
             <Link to='/skills'>
-              <button className="btn btn-live mx-2 fadein fadein-third">Review my skills</button>
+              <button className="btn btn-live mx-2 fadein fadein-third">Skills</button>
             </Link>
             <Link to='/projects'>
-              <button className="btn btn-code mx-2 fadein fadein-third">Visit my portfolio</button>
+              <button className="btn btn-code mx-2 fadein fadein-third">Portfolio</button>
+            </Link>
+            <Link to='/tweets'>
+              <button className="btn btn-code mx-2 fadein fadein-third">Tweets</button>
             </Link>
             <a href="https://docs.google.com/document/d/1wDLnDSzeLd2c6ecFKbzIU7bDV_pzq7mbRcmEACvWQLY/edit?usp=sharing" target="_blank" rel="noopener noreferrer">
-              <button className="btn btn-live mx-2 fadein fadein-third">Read my resume</button>
+              <button className="btn btn-live mx-2 fadein fadein-third">Resume</button>
             </a>
         </div>
       </div>

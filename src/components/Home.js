@@ -9,10 +9,10 @@ const Home = () => (
         <img alt="home developer" className="img-fluid fadein fadein-first" src="homeimg.png"/>
         <h2 className="mx-auto mt-2 home-text fadein fadein-third">Hello!, I like to design and code</h2>
         <Link to="/me">
-          <button type="button" className="btn btn-next mt-2 mx-3 fadein fadein-third"> ABOUT ME </button>
+          <button type="button" className="btn glow-on-hover mt-2 mx-3 fadein fadein-third"> ABOUT ME </button>
         </Link>
         <Link to="/projects">
-          <button type="button" className="btn btn-next mt-2 mx-3 fadein fadein-third"> PORTFOLIO </button>
+          <button type="button" className="btn glow-on-hover mt-2 mx-3 fadein fadein-third"> PORTFOLIO </button>
         </Link>
       </div>
     </div>
