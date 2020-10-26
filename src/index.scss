@@ -83,6 +83,22 @@ body {
     height: 100vh;
     padding: 0;
   }
+
+  .logo-sm {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .masthead {
+    height: 100%;
+    padding: 3rem 0;
+  }
+
+  .img-container {
+    margin-top: 30rem;
+    margin-bottom: 5rem;
+  }
 }
 
 .menu-bars-inner:hover {

@@ -27,13 +27,13 @@ class Navigation extends React.Component {
         <button
           type="button"
           id="sidebarCollapse"
-          className="btn mt-3"
+          className="btn d-none d-md-block"
           onClick={this.toggleSidenav}
           style={{
             position: 'fixed',
             zIndex: '9999',
-            top: '5%',
-            left: '2%',
+            top: '1%',
+            left: '1%',
             backgroundColor: '#ffffff00',
           }}
         >
@@ -47,7 +47,7 @@ class Navigation extends React.Component {
               </div>
             </div>
           </div>
-          <ul className="nav flex-column mb-0 mt-5 ml-2">
+          <ul className="nav flex-column mb-0 mt-md-5 mt-0 ml-2">
             <li className="nav-item home-nav">
               <Link to="/" className="nav-link text-white">
                 <FontAwesomeIcon icon={faHome} />

@@ -4,11 +4,11 @@ import { Link } from 'react-router-dom';
 const Me = () => (
   <header className="masthead" id="home">
     <div className="container d-flex h-100 align-items-center">
-      <div className="row mb-5 mt-5 pt-5">
-        <div className="col-md-6 mx-auto">
-          <img className="img-fluid fadein" src="/me.png" alt="" />
+      <div className="row">
+        <div className="col-lg-6 mx-auto">
+          <img className="img-fluid fadein ml-md-5 me-img" src="/me.png" alt="" />
         </div>
-        <div className="col-md-6 mx-auto">
+        <div className="col-lg-6 mx-auto">
           <h2 className="me-title mb-4 fadein">Eduardo <span className="highlight-text-2">"Usagi"</span> Bonilla</h2>
             <p className="me-text fadein">
               I'm a <span className="highlight-text">Full-Stack developer</span>  mainly focused on Human Computer Interaction, <span className="highlight-text-2">UX/UI design</span>, branding, and <span className="highlight-text">project management.</span>
