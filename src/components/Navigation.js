@@ -1,14 +1,14 @@
 import React from 'react';
 import { faHashtag, faBars, faHome, faUserAstronaut, faTerminal, faAtom, faLaptopCode, faFolder, faFileInvoice  } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { Link } from 'react-router-dom';
+import { Link, NavLink, useLocation } from 'react-router-dom';
 
 class Navigation extends React.Component {
   constructor(props) {
     super(props);
     this.toggleSidenav = this.toggleSidenav.bind(this);
     this.state = {
-      toggleSidebar: 'active',
+      toggleSidebar: '',
     };
   }
 
@@ -40,46 +40,46 @@ class Navigation extends React.Component {
           <img alt="logo" className="img-fluid fadein" src="/logo.png" />
         </button>
         <div className={`vertical-nav toggleSidebar ${toggleSidebar} navbg`} id="sidebar">
-          <div className="pt-4 px-3 ml-5 mt-1">
+          <div className="pt-4 px-3 mt-1">
             <div className="media d-flex align-items-center">
 
               <div className="media-body mb-5">
               </div>
             </div>
           </div>
-          <ul className="nav flex-column mb-0 mt-5 ml-5">
-            <li className="nav-item">
+          <ul className="nav flex-column mb-0 mt-5 ml-2">
+            <li className="nav-item home-nav">
               <Link to="/" className="nav-link text-white">
                 <FontAwesomeIcon icon={faHome} />
               </Link>
             </li>
             <li className="nav-item">
-              <Link to="/me" className="nav-link">
+              <NavLink to="/me" className="nav-link" activeClassName="active">
                 <FontAwesomeIcon icon={faUserAstronaut}/>
-              </Link>
+              </NavLink>
             </li>
             <li className="nav-item">
-              <Link to="/projects" className="nav-link">
+              <NavLink to="/projects" className="nav-link" activeClassName="active">
                 <FontAwesomeIcon icon={faFolder}/>
-              </Link>
+              </NavLink>
             </li>
             <li className="nav-item">
-              <Link to="/skills" className="nav-link">
+              <NavLink to="/skills" className="nav-link" activeClassName="active">
                 <FontAwesomeIcon icon={faLaptopCode}/>
-              </Link>
+              </NavLink>
             </li>
             <li className="nav-item">
-              <Link to="/resume" className="nav-link">
+              <NavLink to="/resume" className="nav-link" activeClassName="active">
                 <FontAwesomeIcon icon={faFileInvoice}/>
-              </Link>
+              </NavLink>
             </li>
             <li className="nav-item">
-              <Link to="/tweets" className="nav-link">
+              <NavLink to="/tweets" className="nav-link" activeClassName="active">
                 <FontAwesomeIcon icon={faHashtag}/>
-              </Link>
+              </NavLink>
             </li>
           </ul>
-          <ul className="nav flex-column mb-0 mt-5 ml-5">
+          <ul className="nav flex-column mb-0 mt-5 ml-2">
             <li className="nav-item mt-5">
               <a className="mx-2" href="https://github.com/usagib" target="_blank" rel="noopener noreferrer">
                 <img alt="mygithub" className="img-fluid fadein fadein-first mt-3" src="logogit.png" />

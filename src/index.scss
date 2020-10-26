@@ -16,6 +16,8 @@ body {
   overflow-x: hidden;
 }
 
+
+
 .embed-section {
   position: relative !important;
   width: 100%;
@@ -115,6 +117,12 @@ body {
 }
 
 .nav-link:hover {
+  font-family: 'EvolveSansMedium', sans-serif;
+  color: #31154b !important;
+  background-color: white;
+}
+
+li.nav-item > a.active {
   font-family: 'EvolveSansMedium', sans-serif;
   color: #31154b !important;
   background-color: white;
@@ -290,8 +298,8 @@ a:hover {
 }
 
 .vertical-nav {
-  min-width: 10rem;
-  width: 10rem;
+  min-width: 5rem;
+  width: 5rem;
   height: 100vh;
   position: fixed;
   top: 0;
@@ -302,13 +310,13 @@ a:hover {
 }
 
 .page-content {
-  width: calc(100% - 10rem);
-  margin-left: 10rem;
+  width: calc(100% - 5rem);
+  margin-left: 5rem;
   transition: all 0.4s;
 }
 
 #sidebar.active {
-  margin-left: -10rem;
+  margin-left: -5rem;
 }
 
 #content.active {
