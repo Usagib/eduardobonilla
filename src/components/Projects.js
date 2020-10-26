@@ -23,10 +23,10 @@ const Projects = () => (
                   </p>
                   <div className="mt-5">
                     <a href="https://giro-the-game.netlify.app/dist/" target="_blank" rel="noopener noreferrer">
-                      <button className="btn btn-live"> Play level 1 </button>
+                      <button className="btn glow-on-hover my-1"> Play level 1 </button>
                     </a>
                     <a href="https://github.com/Usagib/Girogame-Phaser3" target="_blank" rel="noopener noreferrer">
-                      <button className="btn btn-code"> Check the code </button>
+                      <button className="btn glow-on-hover my-1"> Check the code </button>
                     </a>
                   </div>
                 </div>
@@ -52,10 +52,10 @@ const Projects = () => (
                   </p>
                   <div className="mt-5">
                     <a href="https://usagi-booking.surge.sh/" target="_blank" rel="noopener noreferrer">
-                      <button className="btn btn-live"> Live Demo </button>
+                      <button className="btn glow-on-hover my-1"> Live Demo </button>
                     </a>
                     <a href="https://github.com/Usagib/booking-portfolio" target="_blank" rel="noopener noreferrer">
-                      <button className="btn btn-code"> Check the code </button>
+                      <button className="btn glow-on-hover my-1"> Check the code </button>
                     </a>
                   </div>
                 </div>
@@ -79,10 +79,10 @@ const Projects = () => (
                   </p>
                   <div className="mt-5">
                     <a href="https://gthr-app.herokuapp.com/" target="_blank" rel="noopener noreferrer">
-                      <button className="btn btn-live"> Mobile Demo </button>
+                      <button className="btn glow-on-hover my-1"> Mobile Demo </button>
                     </a>
                     <a href="https://github.com/Usagib/gthr-app" target="_blank" rel="noopener noreferrer">
-                      <button className="btn btn-code"> Check the code </button>
+                      <button className="btn glow-on-hover my-1"> Check the code </button>
                     </a>
                   </div>
                 </div>
@@ -94,7 +94,7 @@ const Projects = () => (
           <div className="col-lg-3 fadein fadein-first"><img className="img-fluid" src="/proj1.png" alt="" /></div>
           <div className="col-lg-3 fadein fadein-second">
             <div className="text-center text-lg-left">
-              <h2 className="sm-project-title">Stylo Framework</h2>
+              <h2 className="sm-project-title">Stylo FW</h2>
               <p className="sm-project-subtitle">Web design framework</p>
               <p className="project-text mb-0">
                 Responsive CSS3 framework for quick layout design, a great tool for Bootstrap learners
@@ -104,7 +104,7 @@ const Projects = () => (
               </p>
               <div className="mt-2">
                 <a href="https://github.com/Usagib/stylofw" target="_blank" rel="noopener noreferrer">
-                  <button className="btn btn-code mx-auto"> Framework </button>
+                  <button className="btn glow-on-hover my-1 mx-auto"> Framework </button>
                 </a>
               </div>
             </div>
@@ -122,10 +122,10 @@ const Projects = () => (
               </p>
               <div className="mt-2">
                 <a href="https://raw.githack.com/Usagib/js-weather/03-datafetch/dist/index.html" target="_blank" rel="noopener noreferrer">
-                  <button className="btn btn-live mx-auto"> Check the app </button>
+                  <button className="btn glow-on-hover my-1 mx-auto"> Live Demo </button>
                 </a>
                 <a href="https://github.com/Usagib/Trnado-app" target="_blank" rel="noopener noreferrer">
-                  <button className="btn btn-code mx-auto"> Check the Code </button>
+                  <button className="btn glow-on-hover my-1 mx-auto"> Code </button>
                 </a>
               </div>
             </div>
@@ -144,7 +144,7 @@ const Projects = () => (
               </p>
               <div className="mt-2">
                 <a href="https://github.com/Usagib/Koi-eventsapp">
-                  <button className="btn btn-live mx-auto"> Visit the repo </button>
+                  <button className="btn glow-on-hover my-1 mx-auto"> Visit the repo </button>
                 </a>
               </div>
             </div>
@@ -162,7 +162,7 @@ const Projects = () => (
               </p>
               <div className="mt-2">
                 <a href="https://github.com/Usagib/ror-social-scaffold">
-                  <button className="btn btn-live mx-auto"> Visit the repo </button>
+                  <button className="btn glow-on-hover my-1 mx-auto"> Visit the repo </button>
                 </a>
               </div>
             </div>
