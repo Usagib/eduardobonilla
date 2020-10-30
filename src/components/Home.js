@@ -2,18 +2,24 @@ import React from 'react'
 import { Link } from 'react-router-dom';
 
 const Home = () => (
-  <header className="masthead" id="home">
+  <header className="anim-masthead" id="home"
+    >
     <div className="container d-flex h-100 align-items-center">
       <div className="mx-auto text-center">
-        <img alt="home developer" className="img-fluid fadein fadein-first mb-5 logo-sm" src="logo.png"/>
-        <img alt="home developer" className="img-fluid fadein fadein-first" src="homeimg.png"/>
-        <h2 className="mx-auto mt-2 home-text fadein fadein-third">Hello!, I like to design and code</h2>
-        <Link to="/me">
-          <button type="button" className="btn glow-on-hover mt-2 mx-3 fadein fadein-third"> Me </button>
-        </Link>
-        <Link to="/projects">
-          <button type="button" className="btn glow-on-hover mt-2 mx-3 fadein fadein-third"> Portfolio </button>
-        </Link>
+        <div className="row align-items-center">
+          <div className="col-12">
+            <img alt="home developer" className="img-fluid fadein fadein-first logo-sm" src="homehor.png"/>
+            <img alt="home developer" className="img-fluid fadein fadein-first home-sm" src="homevert.png"/>
+          </div>
+        </div>
+        <div className="row d-none d-md-flex">
+          <div className="col-12">
+            <Link to="/me">
+              <button type="button" className="btn glow-on-hover btn-maxi mt-2 mx-3 fadein fadein-third"> Get to know me! </button>
+            </Link>
+          </div>
+
+        </div>
       </div>
     </div>
   </header>

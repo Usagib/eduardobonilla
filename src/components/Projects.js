@@ -2,26 +2,25 @@ import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 
 const Projects = () => (
-  <header className="masthead">
-      <div className="container-fluid h-100 justify-items-center mt-5 pt-5">
-        <span className="project-title ml-5">Featured Projects</span>
-        <Carousel fade="true" className="fadein">
+  <header className="proj-masthead">
+      <div className="container-fluid h-100 justify-items-center pt-md-5">
+        <Carousel fade="true" className="fadein carousel-div" indicators={false} controls={false}>
           <Carousel.Item>
             <div className="row align-items-center no-gutters">
-              <div className="col-xl-8 col-lg-7">
+              <div className="col-xl-6 col-lg-4">
                 <img className="img-fluid mb-3 mb-lg-0" src="/giro.png" alt="" />
               </div>
-              <div className="col-xl-4 col-lg-5">
+              <div className="col-xl-6 col-lg-7">
                 <div className="featured-text text-center text-lg-left">
                   <h2 className="project-title">Giro The Game</h2>
                   <p className="project-subtitle">Action Platformer</p>
                   <p className="project-text mb-0">
-                    Action-Platformer built with Phaser 3, Get the highest score by collecting coins, avoiding damage, and killing enemies.
+                    Get the highest score by collecting coins, avoiding damage, and killing enemies.
                   </p>
                   <p className="tech-text mb-0">
                     Phaser3 JavaScript ES6 webpack netlify jest
                   </p>
-                  <div className="mt-5">
+                  <div className="mt-0">
                     <a href="https://giro-the-game.netlify.app/dist/" target="_blank" rel="noopener noreferrer">
                       <button className="btn glow-on-hover my-1"> Play level 1 </button>
                     </a>
@@ -35,22 +34,22 @@ const Projects = () => (
           </Carousel.Item>
           <Carousel.Item>
             <div className="row align-items-center no-gutters">
-              <div className="col-xl-8 col-lg-7">
+              <div className="col-12 col-xl-6 col-lg-4">
                 <img className="img-fluid mb-3 mb-lg-0" src="/booking.png" alt="" />
               </div>
-              <div className="col-xl-4 col-lg-5">
+              <div className="col-12 col-xl-6 col-lg-7">
                 <div className="featured-text text-center text-lg-left">
-                  <h2 className="project-title">Bookme Portfolio</h2>
+                  <h2 className="project-title">Bookme App</h2>
                   <p className="project-subtitle">
-                    Portfolio application with user dashboard for requesting services and create appointments
+                    Portfolio and appointments app
                   </p>
                   <p className="project-text mb-0">
-                    Booking web application and dedicated RESTful API
+                    Booking web application and dedicated RESTful API with user dashboard
                   </p>
                   <p className="tech-text mb-0">
-                    HTML5 CSS3 JavaScript React Redux Bootstrap Ruby on Rails postgresql Heroku Surge
+                    React Bootstrap Ruby on Rails PostgreSQL
                   </p>
-                  <div className="mt-5">
+                  <div className="mt-0">
                     <a href="https://usagi-booking.surge.sh/" target="_blank" rel="noopener noreferrer">
                       <button className="btn glow-on-hover my-1"> Live Demo </button>
                     </a>
@@ -64,20 +63,20 @@ const Projects = () => (
           </Carousel.Item>
           <Carousel.Item>
             <div className="row align-items-center no-gutters">
-              <div className="col-xl-8 col-lg-7">
+              <div className="col-xl-6 col-lg-4">
                 <img className="img-fluid mb-3 mb-lg-0" src="/gthr.png" alt="" />
               </div>
-              <div className="col-xl-4 col-lg-5">
+              <div className="col-xl-6 col-lg-7">
                 <div className="featured-text text-center text-lg-left">
                   <h2 className="project-title">GTHR</h2>
                   <p className="project-subtitle">Card Game catalog app</p>
                   <p className="project-text mb-0">
-                    This app uses the official Magic the Gathering Card Game API to fetch card details regarding any search by name and text
+                    Create your card catalog from the Magic the Gathering Card Game API
                   </p>
                   <p className="tech-text mb-0">
                     CSS3 JavaScript React Redux Bootstrap
                   </p>
-                  <div className="mt-5">
+                  <div className="mt-0">
                     <a href="https://gthr-app.herokuapp.com/" target="_blank" rel="noopener noreferrer">
                       <button className="btn glow-on-hover my-1"> Mobile Demo </button>
                     </a>
@@ -90,9 +89,9 @@ const Projects = () => (
             </div>
           </Carousel.Item>
         </Carousel>
-        <div className="row justify-content-center no-gutters mt-5 mb-5 mb-lg-0 fadein">
+        <div className="row justify-content-center mt-5 mb-5 mb-lg-0 fadein mx-auto">
           <div className="col-lg-3 fadein fadein-first"><img className="img-fluid" src="/proj1.png" alt="" /></div>
-          <div className="col-lg-3 fadein fadein-second">
+          <div className="col-lg-6 fadein fadein-second text-center">
             <div className="text-center text-lg-left">
               <h2 className="sm-project-title">Stylo FW</h2>
               <p className="sm-project-subtitle">Web design framework</p>
@@ -102,15 +101,17 @@ const Projects = () => (
               <p className="sm-tech-text mb-0">
                 CSS3
               </p>
-              <div className="mt-2">
-                <a href="https://github.com/Usagib/stylofw" target="_blank" rel="noopener noreferrer">
-                  <button className="btn glow-on-hover my-1 mx-auto"> Framework </button>
-                </a>
-              </div>
             </div>
           </div>
-          <div className="col-lg-3 fadein fadein-second"><img className="img-fluid" src="/proj2.png" alt="" /></div>
-          <div className="col-lg-3 fadein fadein-first ">
+          <div className="col-lg-3">
+            <a href="https://github.com/Usagib/stylofw" target="_blank" rel="noopener noreferrer">
+              <button className="btn glow-on-hover my-1 mx-auto"> Framework </button>
+            </a>
+          </div>
+        </div>
+        <div className="row justify-content-center mt-5 mb-5 mb-lg-0 fadein mx-auto">
+          <div className="col-lg-2 fadein fadein-second"><img className="img-fluid" src="/proj2.png" alt="" /></div>
+          <div className="col-lg-4 fadein fadein-first ">
             <div className="text-center text-lg-left">
               <h2 className="sm-project-title">Trnado App</h2>
               <p className="sm-project-subtitle">JavaScript weather app  </p>

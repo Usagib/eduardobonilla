@@ -24,7 +24,7 @@ class Navigation extends React.Component {
     const { toggleSidebar } = this.state;
     return (
       <div>
-        <button
+      {/*  <button
           type="button"
           id="sidebarCollapse"
           className="btn d-none d-md-block"
@@ -39,15 +39,16 @@ class Navigation extends React.Component {
         >
           <img alt="logo" className="img-fluid fadein" src="/logo.png" />
         </button>
+        */}
+
         <div className={`vertical-nav toggleSidebar ${toggleSidebar} navbg`} id="sidebar">
           <div className="pt-4 px-3 mt-1">
             <div className="media d-flex align-items-center">
-
               <div className="media-body mb-5">
               </div>
             </div>
           </div>
-          <ul className="nav flex-column mb-0 mt-md-5 mt-0 ml-2">
+          <ul className="nav flex-column mb-0 mt-0 ml-lg-2 ml-0">
             <li className="nav-item home-nav">
               <Link to="/" className="nav-link text-white">
                 <FontAwesomeIcon icon={faHome} />
