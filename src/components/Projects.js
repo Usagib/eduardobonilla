@@ -14,7 +14,7 @@ const Projects = () => (
           </Link>
         </div>
 
-        <Carousel fade="true" className="fadein mb-5" indicators={false} controls={false}>
+        <Carousel fade="true" className="fadein mb-5" indicators={false} controls={false} pause={false}>
           <Carousel.Item>
             <div className="row align-items-center no-gutters">
               <div className="col-xl-6 col-lg-5">
@@ -101,7 +101,7 @@ const Projects = () => (
         </Carousel>
 
         <div className="row align-items-center mt-lg-5">
-          <div className="col-12 col-sm-6 col-lg-3 mb-2">
+          <div className="ml-3 ml-sm-0 col-12 col-sm-6 col-lg-3 mb-2">
             <img className="img-fluid" src="/proj1.png" alt="" />
               <h2 className="sm-project-title">Stylo FW</h2>
               <p className="sm-project-subtitle">Web design framework</p>
@@ -115,7 +115,7 @@ const Projects = () => (
                 <button className="btn glow-on-hover my-1 mx-auto"> Framework </button>
               </a>
           </div>
-          <div className="col-12 col-sm-6 col-lg-3 mb-2">
+          <div className="ml-3 ml-sm-0 col-12 col-sm-6 col-lg-3 mb-2">
             <img className="img-fluid" src="/proj2.png" alt="" />
               <h2 className="sm-project-title">Trnado App</h2>
               <p className="sm-project-subtitle">JavaScript weather app  </p>
@@ -134,7 +134,7 @@ const Projects = () => (
                 </a>
               </div>
           </div>
-          <div className="col-12 col-sm-6 col-lg-3 mb-2">
+          <div className="ml-3 ml-sm-0 col-12 col-sm-6 col-lg-3 mb-2">
             <img className="img-fluid" src="/proj3.png" alt="" />
               <h2 className="sm-project-title">Koi Events</h2>
               <p className="sm-project-subtitle">Events attendance app</p>
@@ -150,7 +150,7 @@ const Projects = () => (
                 </a>
               </div>
           </div>
-          <div className="col-12 col-sm-6 col-lg-3 mb-2">
+          <div className="ml-3 ml-sm-0 col-12 col-sm-6 col-lg-3 mb-2">
             <img className="img-fluid" src="/proj4.png" alt="" />
               <h2 className="sm-project-title">Social Scramble</h2>
               <p className="sm-project-subtitle">Social network app</p>

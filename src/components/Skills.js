@@ -3,7 +3,7 @@ import Carousel from 'react-bootstrap/Carousel';
 import { Link } from 'react-router-dom';
 
 const Skills = () => (
-  <header className="skill-masthead" id="skills">
+  <header className="masthead" id="skills">
     <div className="container-fluid h-100 d-flex align-items-center">
       <Carousel fade="true" indicators={false} controls={false} pause={false} interval={3000}>
           <Carousel.Item>

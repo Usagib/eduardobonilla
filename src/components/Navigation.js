@@ -44,7 +44,7 @@ class Navigation extends React.Component {
         <div className={`vertical-nav toggleSidebar ${toggleSidebar} navbg`} id="sidebar">
           <div className="pt-4 px-3 mt-1">
             <div className="media d-flex align-items-center">
-              <div className="media-body mb-5">
+              <div className="media-body mb-3">
               </div>
             </div>
           </div>
@@ -70,17 +70,12 @@ class Navigation extends React.Component {
               </NavLink>
             </li>
             <li className="nav-item">
-              <NavLink to="/resume" className="nav-link" activeClassName="active">
-                <FontAwesomeIcon icon={faFileInvoice}/>
-              </NavLink>
-            </li>
-            <li className="nav-item">
               <NavLink to="/tweets" className="nav-link" activeClassName="active">
                 <FontAwesomeIcon icon={faHashtag}/>
               </NavLink>
             </li>
           </ul>
-          <ul className="nav flex-column mb-0 mt-5 ml-2">
+          <ul className="nav flex-column mb-0 mt-0 ml-2">
             <li className="nav-item mt-5">
               <a className="mx-2" href="https://github.com/usagib" target="_blank" rel="noopener noreferrer">
                 <img alt="mygithub" className="img-fluid fadein fadein-first mt-3" src="logogit.png" />

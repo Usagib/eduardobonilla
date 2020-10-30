@@ -21,6 +21,11 @@ body {
   width: 100%;
 }
 
+.doc-embed {
+  height: 100vh;
+  width: 100vw;
+}
+
 .navbg {
 	background: transparent;
 }
@@ -72,10 +77,8 @@ body {
   padding: 15rem 0;
 }
 
-.skill-masthead {
-  position: relative;
-  width: 100%;
-  height: 100vh;
+.home-sm {
+  width: 80%;
 }
 
 .anim-masthead {
@@ -267,13 +270,13 @@ li.nav-item > a.active {
   letter-spacing: 1px;
   background-image: linear-gradient(to left, violet, indigo, blue, green, #facf23, orange, red);   -webkit-background-clip: text;
   color: transparent;
-  font-size: 2rem;
+  font-size: 3rem;
 }
 
 .skill-title {
   font-family: 'EvolveSansMediumEVO', sans-serif;
   color: black;
-  font-size: 3rem;
+  font-size: 4rem;
 }
 
 .sm-project-title {

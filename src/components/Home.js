@@ -11,7 +11,7 @@ const Home = () => (
             <img alt="home developer" className="img-fluid fadein fadein-first home-sm" src="homevert.png"/>
           </div>
         </div>
-        <div className="row align-items-center mt-5 mt-sm-0">
+        <div className="row align-items-center mt-0 mt-sm-0">
           <div className="col-12">
             <Link to="/me">
               <button type="button" className="btn glow-on-hover btn-maxi mt-2 mx-3 fadein fadein-third"> Get to know me! </button>
