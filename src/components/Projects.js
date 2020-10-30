@@ -1,13 +1,23 @@
 import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
+import { Link } from 'react-router-dom';
 
 const Projects = () => (
   <header className="proj-masthead">
-      <div className="container-fluid h-100 justify-items-center pt-md-5">
-        <Carousel fade="true" className="fadein carousel-div" indicators={false} controls={false}>
+      <div className="container h-100 justify-items-center">
+        <div className="row justify-content-center mt-5">
+          <a href="https://github.com/usagib" target="_blank" rel="noopener noreferrer">
+            <button className="btn glow-on-hover btn-med mx-2 mb-5 d-none d-sm-block"> Full Projects on GitHub</button>
+          </a>
+          <Link to="/skills">
+            <button className="btn glow-on-hover btn-med mx-2 d-none d-md-block"> Skills </button>
+          </Link>
+        </div>
+
+        <Carousel fade="true" className="fadein mb-5" indicators={false} controls={false}>
           <Carousel.Item>
             <div className="row align-items-center no-gutters">
-              <div className="col-xl-6 col-lg-4">
+              <div className="col-xl-6 col-lg-5">
                 <img className="img-fluid mb-3 mb-lg-0" src="/giro.png" alt="" />
               </div>
               <div className="col-xl-6 col-lg-7">
@@ -34,10 +44,10 @@ const Projects = () => (
           </Carousel.Item>
           <Carousel.Item>
             <div className="row align-items-center no-gutters">
-              <div className="col-12 col-xl-6 col-lg-4">
+              <div className="col-xl-6 col-lg-5">
                 <img className="img-fluid mb-3 mb-lg-0" src="/booking.png" alt="" />
               </div>
-              <div className="col-12 col-xl-6 col-lg-7">
+              <div className="col-xl-6 col-lg-7">
                 <div className="featured-text text-center text-lg-left">
                   <h2 className="project-title">Bookme App</h2>
                   <p className="project-subtitle">
@@ -63,7 +73,7 @@ const Projects = () => (
           </Carousel.Item>
           <Carousel.Item>
             <div className="row align-items-center no-gutters">
-              <div className="col-xl-6 col-lg-4">
+              <div className="col-xl-6 col-lg-5">
                 <img className="img-fluid mb-3 mb-lg-0" src="/gthr.png" alt="" />
               </div>
               <div className="col-xl-6 col-lg-7">
@@ -89,10 +99,10 @@ const Projects = () => (
             </div>
           </Carousel.Item>
         </Carousel>
-        <div className="row justify-content-center mt-5 mb-5 mb-lg-0 fadein mx-auto">
-          <div className="col-lg-3 fadein fadein-first"><img className="img-fluid" src="/proj1.png" alt="" /></div>
-          <div className="col-lg-6 fadein fadein-second text-center">
-            <div className="text-center text-lg-left">
+
+        <div className="row align-items-center mt-lg-5">
+          <div className="col-12 col-sm-6 col-lg-3 mb-2">
+            <img className="img-fluid" src="/proj1.png" alt="" />
               <h2 className="sm-project-title">Stylo FW</h2>
               <p className="sm-project-subtitle">Web design framework</p>
               <p className="project-text mb-0">
@@ -101,18 +111,12 @@ const Projects = () => (
               <p className="sm-tech-text mb-0">
                 CSS3
               </p>
-            </div>
+              <a href="https://github.com/Usagib/stylofw" target="_blank" rel="noopener noreferrer">
+                <button className="btn glow-on-hover my-1 mx-auto"> Framework </button>
+              </a>
           </div>
-          <div className="col-lg-3">
-            <a href="https://github.com/Usagib/stylofw" target="_blank" rel="noopener noreferrer">
-              <button className="btn glow-on-hover my-1 mx-auto"> Framework </button>
-            </a>
-          </div>
-        </div>
-        <div className="row justify-content-center mt-5 mb-5 mb-lg-0 fadein mx-auto">
-          <div className="col-lg-2 fadein fadein-second"><img className="img-fluid" src="/proj2.png" alt="" /></div>
-          <div className="col-lg-4 fadein fadein-first ">
-            <div className="text-center text-lg-left">
+          <div className="col-12 col-sm-6 col-lg-3 mb-2">
+            <img className="img-fluid" src="/proj2.png" alt="" />
               <h2 className="sm-project-title">Trnado App</h2>
               <p className="sm-project-subtitle">JavaScript weather app  </p>
               <p className="project-text mb-0">
@@ -129,12 +133,9 @@ const Projects = () => (
                   <button className="btn glow-on-hover my-1 mx-auto"> Code </button>
                 </a>
               </div>
-            </div>
           </div>
-        </div>
-        <div className="row justify-content-center no-gutters mt-5">
-          <div className="col-lg-3 fadein fadein-first">
-            <div className="text-center text-lg-right">
+          <div className="col-12 col-sm-6 col-lg-3 mb-2">
+            <img className="img-fluid" src="/proj3.png" alt="" />
               <h2 className="sm-project-title">Koi Events</h2>
               <p className="sm-project-subtitle">Events attendance app</p>
               <p className="project-text mb-0">
@@ -148,11 +149,9 @@ const Projects = () => (
                   <button className="btn glow-on-hover my-1 mx-auto"> Visit the repo </button>
                 </a>
               </div>
-            </div>
           </div>
-          <div className="col-lg-3 fadein fadein-second"><img className="img-fluid" src="/proj3.png" alt="" /></div>
-          <div className="col-lg-3 fadein fadein-second">
-            <div className="text-center text-lg-right">
+          <div className="col-12 col-sm-6 col-lg-3 mb-2">
+            <img className="img-fluid" src="/proj4.png" alt="" />
               <h2 className="sm-project-title">Social Scramble</h2>
               <p className="sm-project-subtitle">Social network app</p>
               <p className="project-text mb-0">
@@ -166,15 +165,9 @@ const Projects = () => (
                   <button className="btn glow-on-hover my-1 mx-auto"> Visit the repo </button>
                 </a>
               </div>
-            </div>
           </div>
-          <div className="col-lg-3 fadein fadein-first "><img className="img-fluid" src="/proj4.png" alt="" /></div>
         </div>
-        <div className="row justify-content-center mt-5">
-          <a href="https://github.com/usagib" target="_blank" rel="noopener noreferrer">
-            <button className="btn btn-next"> Check more projects! github</button>
-          </a>
-      </div>
+
       </div>
   </header>
 
