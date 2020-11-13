@@ -239,6 +239,12 @@ li.nav-item > a.active {
   color: white;
 }
 
+.nav-text {
+  font-size: 0.2rem;
+  padding: 0;
+  margin: 0;
+  line-height: -200px;
+}
 
 .project-title {
   font-family: 'EvolveSansMediumEVO', sans-serif;
@@ -276,7 +282,7 @@ li.nav-item > a.active {
 .skill-title {
   font-family: 'EvolveSansMediumEVO', sans-serif;
   color: black;
-  font-size: 4rem;
+  font-size: 3rem;
 }
 
 .sm-project-title {
